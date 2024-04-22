@@ -297,9 +297,7 @@ h1 {
   display: block;
 }
 
-.plan-items:not(:last-child) {
-  margin-bottom: 72px;
-}
+
 
 .icons {
   display: none;
@@ -348,7 +346,9 @@ h1 {
   .plan-items{
     max-width: 356px;
   }
-  
+  .plan-items:not(:last-child) {
+    margin-bottom: 72px;
+  }
 }
 
 @media screen and (min-width:1158px) {
