@@ -810,6 +810,9 @@ h1 {
     align-items: baseline;
     flex-wrap: nowrap;
     gap: unset;
+    max-width: 1158px;
+    justify-content: center;
+    margin: 0 156px;
   }
 
   .footer_form {
