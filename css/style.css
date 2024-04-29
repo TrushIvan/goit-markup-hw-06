@@ -634,6 +634,10 @@ h1 {
   text-align: center;
 }
 
+.container_third{
+  width: 296px;
+}
+
 @media screen and (max-width:767px) {
   .list_section_three:not(:last-child) {
     margin-bottom: 72px;
@@ -643,6 +647,10 @@ h1 {
 @media screen and (min-width:768px) {
   .list_section_three {
     max-width: 768px;
+  }
+
+  .container_third{
+    width: 704px;
   }
 
   .our_team-list {
@@ -669,6 +677,10 @@ h1 {
 
   .list_section_three {
     width: calc((100% - 72px) / 4);
+  }
+
+  .container_third{
+    width: 1158px;
   }
 }
 
