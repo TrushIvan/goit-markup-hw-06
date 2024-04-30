@@ -1229,19 +1229,11 @@ h1 {
     width: 408px;
   }
 
-  .container_modal-window {
-  }
-
   .container_mw_link-name {
     width: 360px;
   }
 
   .container_mw_item-comment {
     width: 368px;
-  }
-}
-
-@media screen and (min-width:1158px) {
-  .container_modal-window {
   }
 }
